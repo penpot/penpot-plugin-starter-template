@@ -1,0 +1,9 @@
+{
+  "name": "Penpot starter plugin",
+  "code": "http://localhost:4400/plugin.js",
+  "permissions": [
+    "page:read",
+    "file:read",
+    "selection:read"
+  ]
+}
