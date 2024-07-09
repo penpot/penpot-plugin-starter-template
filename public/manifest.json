@@ -3,5 +3,8 @@
   "host": "http://localhost:4400",
   "code": "plugin.js",
   "description": "This is a starter plugin for Penpot",
-  "permissions": ["page:read", "file:read", "selection:read"]
+  "permissions": [
+    "content:read",
+    "content:write"
+  ]
 }
