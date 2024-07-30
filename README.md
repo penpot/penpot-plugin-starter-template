@@ -14,6 +14,17 @@ git clone --depth 1 https://github.com/penpot/penpot-plugin-starter-template pen
 
 This command clones the latest version of the template into a folder named `penpot-plugin`.
 
+### Install Dependencies
+
+After cloning the repository, navigate into the project directory and install the necessary dependencies by running:
+
+```bash
+cd penpot-plugin
+npm install
+```
+
+This command installs all the required packages listed in the `package.json` file.
+
 ### Configure the Plugin
 
 Next, you need to edit the plugin's configuration file:
@@ -30,7 +41,7 @@ To start the development server, run the following command in your terminal:
 npm run dev
 ```
 
-Once the server is running, open your web browser and go to `http://localhost:4400` to view your plugin in action. Now is ready to be loaded in Penpot.
+Once the server is running, open your web browser and go to `http://localhost:4400` to view your plugin in action. Now it is ready to be loaded in Penpot with the url `http://localhost:4400/manifest.json`.
 
 ## Development
 
