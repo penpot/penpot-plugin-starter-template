@@ -1,9 +1,17 @@
 import "./style.css";
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div>
-    <p>Penpot plugin starter template</p>
+// get the current theme from the URL
+const searchParams = new URLSearchParams(window.location.search);
+document.body.dataset.theme = searchParams.get("theme") ?? "light";
 
-    <p>Checkout the <a target="_blank" href="https://penpot-docs-plugins.pages.dev/technical-guide/plugins/">documentation</a> to get started.</p>
-  </div>
-`;
+document.querySelector(".action-create-text")?.addEventListener("click", () => {
+  // send message to plugin.ts
+  parent.postMessage("create-text", "*");
+});
+
+// Listen plugin.ts messages
+window.addEventListener("message", (event) => {
+  if (event.data.source === "penpot") {
+    document.body.dataset.theme = event.data.theme;
+  }
+});
