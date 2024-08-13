@@ -1,6 +1,12 @@
 import { defineConfig } from "vite";
+import livePreview from "vite-live-preview";
 
 export default defineConfig({
+  plugins: [
+    livePreview({
+      reload: true,
+    }),
+  ],
   build: {
     rollupOptions: {
       input: {
