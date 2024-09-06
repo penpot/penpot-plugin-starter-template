@@ -4,11 +4,7 @@ This repository is designed to be your starting point for creating plugins for P
 
 ## Getting Started
 
-<figure>
-  <video title="" muted="" playsinline="" controls="" width="100%" poster="plugin-starter-template.png" height="auto">
-    <source src="plugin-starter-template.mp4" type="video/mp4">
-  </video>
-</figure>
+[![How to use starter template](plugin-starter-template.png)](plugin-starter-template.mp4)
 
 ### Use this template
 
