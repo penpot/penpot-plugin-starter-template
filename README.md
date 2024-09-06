@@ -4,22 +4,21 @@ This repository is designed to be your starting point for creating plugins for P
 
 ## Getting Started
 
-### Clone the Repository
+### Use this template
 
-Begin by cloning this repository to your local machine. Use the following command in your terminal:
+Click the "Use this template" button at the top of the GitHub repository page. That'll create a new repository in your account with all the template files.
 
+Now that your repository was created you can clone it in your machine to start working with it:
 ```bash
-git clone --depth 1 https://github.com/penpot/penpot-plugin-starter-template penpot-plugin
+git clone <your-repository-url>
 ```
-
-This command clones the latest version of the template into a folder named `penpot-plugin`.
 
 ### Install Dependencies
 
 After cloning the repository, navigate into the project directory and install the necessary dependencies by running:
 
 ```bash
-cd penpot-plugin
+cd <your-project-name>
 npm install
 ```
 
@@ -29,9 +28,8 @@ This command installs all the required packages listed in the `package.json` fil
 
 Next, you need to edit the plugin's configuration file:
 
-1. Navigate to the `penpot-plugin` directory.
-2. Open the `manifest.json` file located in the `/public` folder.
-3. Make any necessary changes to the configuration. Note that any modifications to this file require you to restart the development server for changes to take effect.
+1. Open the `manifest.json` file located in the `/public` folder.
+2. Make any necessary changes to the configuration. Note that any modifications to this file require you to restart the development server for changes to take effect.
 
 ### Run the Development Server
 
@@ -57,8 +55,8 @@ This plugin template uses several key technologies:
 
 The template includes two Penpot libraries to assist in your development:
 
-- `@penpot/plugin-styles`: This library provides utility functions and resources to help you style your components consistently with Penpot's design system.
-- `@penpot/plugin-types`: This library includes types and API descriptions for interacting with the Penpot plugin API, facilitating the development of plugins that can communicate effectively with the Penpot app.
+- `@penpot/plugin-styles`: <a href="https://www.npmjs.com/package/@penpot/plugin-styles" target="_blank">This library </a>provides utility functions and resources to help you style your components consistently with Penpot's design system.
+- `@penpot/plugin-types`: <a href="https://www.npmjs.com/package/@penpot/plugin-types" target="_blank">This library </a>includes types and API descriptions for interacting with the Penpot plugin API, facilitating the development of plugins that can communicate effectively with the Penpot app.
 
 ## Build Your Plugin
 
