@@ -4,7 +4,7 @@ This repository is designed to be your starting point for creating plugins for P
 
 ## Getting Started
 
-[![Watch the video how to use starter template](https://raw.githubusercontent.com/penpot/penpot-plugin-starter-template/main/plugin-starter-template.png)](https://raw.githubusercontent.com/penpot/penpot-plugin-starter-template/main/plugin-starter-template.mp4)
+[![Watch the video how to use starter template](https://penpot.github.io/penpot-plugin-starter-template/plugin-starter-template.png)](https://penpot.github.io/penpot-plugin-starter-template/plugin-starter-template.mp4)
 
 ### Use this template
 
