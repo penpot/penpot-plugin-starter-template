@@ -55,7 +55,6 @@ The `manifest.json` file contains the basic information about the plugin. It def
 
 This file is essential for the plugin to function correctly within Penpot.
 
-
 ## Getting Started
 
 [![Watch the video how to use starter template](https://penpot.github.io/penpot-plugin-starter-template/plugin-starter-template.png)](https://penpot.github.io/penpot-plugin-starter-template/plugin-starter-template.mp4)
@@ -65,6 +64,7 @@ This file is essential for the plugin to function correctly within Penpot.
 Click the "Use this template" button at the top of the GitHub repository page. That'll create a new repository in your account with all the template files.
 
 Now that your repository was created you can clone it in your machine to start working with it:
+
 ```bash
 git clone <your-repository-url>
 ```
@@ -101,7 +101,7 @@ Once the server is running, open your web browser and go to `http://localhost:44
 
 To load and test your local plugin running on `http://localhost:4400`, follow these steps:
 
-1. **Open the Plugin Manager:** In <a href="https://early.penpot.dev" target="_blank">Penpot (early)</a>, use the shortcut `Ctrl + Alt + P` in any file to open the Plugin Manager modal.
+1. **Open the Plugin Manager:** Use the shortcut `Ctrl + Alt + P` in any file to open the Plugin Manager modal.
 
 2. **Enter the manifest URL:** In the Plugin Manager, provide the URL for your local plugin's manifest file. For a local setup, this URL will be: `http://localhost:4400/manifest.json`.
 
@@ -138,4 +138,4 @@ npm run build
 
 After successfully building your plugin, now you're ready to use your chosen platform to deploy it.
 
-Check our <a href="https://penpot-docs-plugins.pages.dev/plugins/deployment/" target="_blank">Deployment guide</a> for more information about how to deploy your plugin in multiple platforms.
+Check our <a href="https://help.penpot.app/plugins/deployment/" target="_blank">Deployment guide</a> for more information about how to deploy your plugin in multiple platforms.
