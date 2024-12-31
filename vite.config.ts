@@ -5,6 +5,11 @@ export default defineConfig({
   plugins: [
     livePreview({
       reload: true,
+      config: {
+        build: {
+          sourcemap: true,
+        },
+      },
     }),
   ],
   build: {
