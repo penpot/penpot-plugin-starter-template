@@ -1,6 +1,6 @@
 {
-  "name": "Penpot starter plugin",
+  "name": "Penpot Utils",
   "code": "plugin.js",
-  "description": "This is a starter plugin for Penpot",
+  "description": "A utility plugin for PenPot that aims to make tedious tasks more efficient",
   "permissions": ["content:read", "content:write"]
 }
