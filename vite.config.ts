@@ -13,7 +13,7 @@ export default defineConfig({
     }),
   ],
   build: {
-    rollupOptions: {
+    rolldownOptions: {
       input: {
         plugin: "src/plugin.ts",
         index: "./index.html",
