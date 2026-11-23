@@ -41,6 +41,7 @@ The `manifest.json` file contains the basic information about the plugin. It def
 {
   "name": "Your plugin name",
   "description": "Your plugin description",
+  "version": 2,
   "code": "plugin-file.js",
   "icon": "your-icon.png",
   "permissions": [
@@ -52,6 +53,8 @@ The `manifest.json` file contains the basic information about the plugin. It def
   ]
 }
 ```
+
+Keep `"version": 2` so that relative paths in `code` and `icon` are resolved from the location of the manifest. If `version` is omitted, Penpot treats the manifest as version 1 and resolves them from the root of the host.
 
 This file is essential for the plugin to function correctly within Penpot.
 
