@@ -2,5 +2,6 @@
   "name": "Penpot starter plugin",
   "code": "plugin.js",
   "description": "This is a starter plugin for Penpot",
+  "version": 2,
   "permissions": ["content:read", "content:write"]
 }
